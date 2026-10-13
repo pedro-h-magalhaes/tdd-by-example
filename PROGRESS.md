@@ -2,7 +2,7 @@
 
 ## Where I stopped
 
-Finished chapter 4 (Degenerate Objects) in Java. Next: chapter 4 in Python.
+Finished chapter 4 (Degenerate Objects) in Java and in Python. Next: chapter 5, Equality for All.
 
 ## Setup
 
@@ -48,7 +48,7 @@ Chapter numbers follow the PDF in the folder above this repository. `n/a` marks 
 | 1. Story Time | n/a | n/a |
 | 2. Section I: Money Example | n/a | n/a |
 | 3. Money Example | yes | yes |
-| 4. Degenerate Objects | yes | no |
+| 4. Degenerate Objects | yes | yes |
 | 5. Equality for All | no | no |
 | 6. Privacy | no | no |
 | 7. Franc-ly Speaking | no | no |
