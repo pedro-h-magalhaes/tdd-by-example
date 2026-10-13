@@ -17,3 +17,10 @@ build/
 
 # Local notes, only for this machine
 CLAUDE.local.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Python virtual environment
+.venv/
