@@ -45,6 +45,21 @@ git restore --staged <file>
 - Use `.` instead of `<file>` to take everything out of the stage.
 - Without `--staged`, `git restore <file>` throws away the changes in the file, with no way back.
 
+## Java (JUnit 5)
+
+### Mark a method as a test
+
+```java
+@Test
+void <testName>() {
+    // ...
+}
+```
+
+- Without `@Test`, JUnit skips the method silently, and the build still passes.
+- The book uses JUnit 3, where a method only needed a name starting with `test`.
+- Check that every new test shows up in the output as `PASSED` or `FAILED`.
+
 ## Python
 
 ### Create a virtual environment
