@@ -1,0 +1,19 @@
+# Gradle build output and cache
+build/
+.gradle/
+
+# Files the VS Code Java extension generates
+.classpath
+.project
+.settings/
+.factorypath
+
+# Other editors
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Local notes, only for this machine
+CLAUDE.local.md
