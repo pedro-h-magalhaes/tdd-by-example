@@ -2,7 +2,7 @@
 
 ## Where I stopped
 
-Finished chapter 4 (Degenerate Objects) in Java and in Python. Next: chapter 5, Equality for All.
+Finished chapter 5 (Equality for All) in Java. Next: chapter 5 in Python.
 
 ## Setup
 
@@ -49,7 +49,7 @@ Chapter numbers follow the PDF in the folder above this repository. `n/a` marks 
 | 2. Section I: Money Example | n/a | n/a |
 | 3. Money Example | yes | yes |
 | 4. Degenerate Objects | yes | yes |
-| 5. Equality for All | no | no |
+| 5. Equality for All | yes | no |
 | 6. Privacy | no | no |
 | 7. Franc-ly Speaking | no | no |
 | 8. Equality for All, Redux | no | no |
@@ -96,13 +96,17 @@ Chapter numbers follow the PDF in the folder above this repository. `n/a` marks 
 
 ## To-do list
 
-Kent Beck's list, as it stands at the end of chapter 4.
+Kent Beck's list, as it stands at the end of chapter 5.
 
 - [ ] $5 + 10 CHF = $10 if rate is 2:1
 - [x] $5 * 2 = $10
 - [ ] Make "amount" private
 - [x] Dollar side effects?
 - [ ] Money rounding?
+- [x] equals()
+- [ ] hashCode()
+- [ ] Equal null
+- [ ] Equal object
 
 ## Questions and notes
 
