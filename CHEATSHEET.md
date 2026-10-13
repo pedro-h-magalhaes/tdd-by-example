@@ -24,6 +24,27 @@ echo "text" >> file
 cat file
 ```
 
+## Git
+
+### Push the current branch
+
+```bash
+git push
+```
+
+- Works once the branch is linked to a branch on GitHub.
+- The first push of a new branch makes that link: `git push -u origin <branch>`.
+
+### Take a file out of the stage, keeping its changes
+
+```bash
+git restore --staged <file>
+```
+
+- `--staged` touches only the stage: the file leaves the next commit, and its changes stay.
+- Use `.` instead of `<file>` to take everything out of the stage.
+- Without `--staged`, `git restore <file>` throws away the changes in the file, with no way back.
+
 ## Python
 
 ### Create a virtual environment
