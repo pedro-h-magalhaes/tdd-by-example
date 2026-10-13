@@ -2,7 +2,7 @@
 
 ## Where I stopped
 
-Finished chapter 3 (Money Example) in Java and in Python. Next: chapter 4, Degenerate Objects.
+Finished chapter 4 (Degenerate Objects) in Java. Next: chapter 4 in Python.
 
 ## Setup
 
@@ -48,7 +48,7 @@ Chapter numbers follow the PDF in the folder above this repository. `n/a` marks 
 | 1. Story Time | n/a | n/a |
 | 2. Section I: Money Example | n/a | n/a |
 | 3. Money Example | yes | yes |
-| 4. Degenerate Objects | no | no |
+| 4. Degenerate Objects | yes | no |
 | 5. Equality for All | no | no |
 | 6. Privacy | no | no |
 | 7. Franc-ly Speaking | no | no |
@@ -96,7 +96,13 @@ Chapter numbers follow the PDF in the folder above this repository. `n/a` marks 
 
 ## To-do list
 
+Kent Beck's list, as it stands at the end of chapter 4.
 
+- [ ] $5 + 10 CHF = $10 if rate is 2:1
+- [x] $5 * 2 = $10
+- [ ] Make "amount" private
+- [x] Dollar side effects?
+- [ ] Money rounding?
 
 ## Questions and notes
 
