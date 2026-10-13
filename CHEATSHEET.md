@@ -67,3 +67,14 @@ pip freeze > <file>
 - `pip freeze` lists every package installed in the active virtual environment, as `name==version`.
 - `> <file>` sends that list to a file instead of the screen.
   - The usual file is `requirements.txt`, in the project folder.
+
+### Return a new object instead of changing this one
+
+```python
+def <method>(self, <param>):
+    return <ClassName>(self.<attribute> * <param>)
+```
+
+- Calling the class name creates the object; Python has no `new`.
+- The calculation runs first, and its result goes to the constructor.
+- `self.<attribute>` is only read, so the object the method was called on does not change.
